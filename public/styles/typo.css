@@ -1,0 +1,16 @@
+:root{
+    --main_font: 'Open sans light', serif;
+    --title_font: 'Space grotesk regular', serif;
+
+}
+
+@font-face{
+    font-family: "Open sans light";
+    src: url(../assets/fonts/open-sans.light.ttf);
+}
+
+@font-face{
+    font-family: "Space grotesk regular";
+    src: url(../assets/fonts/space-grotesk.regular.ttf);
+}
+
