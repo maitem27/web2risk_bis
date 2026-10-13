@@ -18,7 +18,7 @@ body{
 
 }
 
-
+/* La navbar  */
 
 nav {
     display: flex;
@@ -26,6 +26,10 @@ nav {
     align-items: center;
     width: 100%;
     padding: 1rem 2rem;
+}
+
+.logo {
+    height: 6rem;
 }
 
 ul {
@@ -53,6 +57,8 @@ a:hover {
     box-shadow: 1px 2px 5px 0px var(--school-bus-yellow);
 }
 
+    /* titre principal */
+
 h1{
     font-family: var(--title_font);
     color: var(--sky-blue);
@@ -60,10 +66,14 @@ h1{
     font-size: 5rem;
 }
 
+/* les 4 sections  */
+
 section {
     margin: 0 auto;
     padding: 4rem 2rem;
 }
+
+/* les sous titres */
 
 h2{
     font-family: var(--title_font);
@@ -81,6 +91,8 @@ h2{
     margin: 1rem auto;
     padding: 0 1rem;
 }
+
+/* Les cards */
 
 .card {
     display: flex;
@@ -104,9 +116,9 @@ h2{
     color: var(--onyx);
    
 }
-.logo {
-    height: 6rem;
-}
+
+
+/* images de présentation */
 
 .pres_img {
     width: 100%;
@@ -114,7 +126,7 @@ h2{
     object-fit: contain;
     border-radius: 10px;
 }
-
+/* contient le form */
 
 .form_container {
     display: flex;
@@ -122,7 +134,9 @@ h2{
     width: 100%;
 }
 
-.form_container form {
+/* Le formulaire */
+
+ form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -135,16 +149,22 @@ h2{
     box-sizing: border-box;
 }
 
+/* les inputs (position) */
+
 .form_group {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
+/* nom inputs */
+
 .form_group label {
     color: var(--white);
     font-weight: bold;
 }
+
+/* inputs style */
 
 .form_group input,
 .form_group textarea {
@@ -164,10 +184,14 @@ h2{
     resize: vertical;
 }
 
+/* ajoute de la couleur pour savoir sur quel input on a cliqué */
+
 .form_group input:focus,
 .form_group textarea:focus {
     border-color: var(--school-bus-yellow);
 }
+
+/* style bouton du form */
 
 .form_container button {
     padding: 1rem;
@@ -180,7 +204,7 @@ h2{
     font-size: 1rem;
     cursor: pointer;
 }
-
+/* change la couleur du bouton quand la souris passe dessus  */
 .form_container button:hover {
     background-color: var(--white);
 }
